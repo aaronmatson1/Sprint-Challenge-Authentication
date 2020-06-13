@@ -10,8 +10,8 @@ const jokesRouter = require('../jokes/jokes-router.js');
 const server = express();
 
 const sessionConfig = {
-    name: "moster",
-    secret: "keep it secret, keep it safe",
+    name: "Shia LaBeouf",
+    secret: "quiet quiet",
     cookie: {
       maxAge: 1000 * 60 * 60,
       secure: false,
